@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "19": "icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "BitSnapper Latest Posts"
+   },
+   "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+   "description": "Keep up with the latest from BitSnapper",
+   "icons": {
+      "128": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnRXd2kH7EcSdjWT2OB70lvxzg2g53vjybyVsVMqcIkLpcia2/H+x+mYJHPK2oV3liyy/yfYDa3V5MnW9R6RAk0OA0RYQG6D3CRzaRJgid6fUr5DDgoKaU+vErwbspn4o56nXIqcw8Hi3jkSvjmDgt/PrSKGy6OrZbgeCrS0uwx0/UlfZr2psKevE9uQc3VeGQPmXchoTHbn+RYEPNXAoSdFrq5HLJ0VW+xzZBSjy2q/w+8gWn8D+jDneIL/lFbQITi/cpqL+TFyFZyyXX55PX/aM82upW2QFjtXobqIeerzK+y4Gq+baXSIhoQRqZ0KXq3dXc1GXqajUvhKSUrEnwwIDAQAB",
+   "manifest_version": 2,
+   "name": "BitSnapper latest News",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
