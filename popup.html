@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html >
 <head> 
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
@@ -8,7 +7,7 @@
 	<meta name="viewport" content="width=device-width" /> 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 
-	<title>Boxcarr.org</title> 
+	<title>BitSnapper Chrome Extension</title> 
 
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script> 
 	<script type="text/javascript" src="popup.js"></script>
@@ -24,8 +23,9 @@
 			<td class="container"> 
 				<div class="content"> 
 					<div id="pattern" class="pattern"> 
-						<form action="http://bitsnapper.com/" method="post" class="f" target="_blank"> 
-							<input type="search" name="s" placeholder="Find something interesting ..." /> 
+						<form action="http://www.bitsnapper.com" method="get" class="f" target="_blank"> 
+							<input type="search" name="s" id = "searchbox" placeholder="Find something interesting ..." /> 
+							
 							<input type="submit" class="btn search-submit" value="Search"> 
 						</form>
 					</div> 

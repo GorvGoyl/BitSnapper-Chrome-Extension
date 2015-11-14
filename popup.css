@@ -210,3 +210,8 @@ table.head-wrap,table.body-wrap,.content table,.column table {
 .header.container table td.logo,.column tr td {
     padding: 15px;
 }
+
+#searchbox::-webkit-search-cancel-button{
+    position:relative;
+    right:13px;    
+}
